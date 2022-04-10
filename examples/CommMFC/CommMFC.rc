@@ -1,0 +1,370 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\CommMFC.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CommMFC.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 171, 103
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CommMFC"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "CommMFC，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2021 itas109",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,114,82,50,14,WS_GROUP
+    LTEXT           "本软件为开源软件没有版权",IDC_STATIC,43,40,83,8
+    LTEXT           "基于https://github.com/itas109二次开发",IDC_STATIC,23,53,127,8
+    LTEXT           "",IDC_STATIC,23,68,8,8
+END
+
+IDD_COMMMFC_DIALOG DIALOGEX 0, 0, 437, 367
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "HS_APDEPT_WSG 测试版(v1.0.0)"
+MENU IDR_MENU1
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,25,31,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT5,77,31,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,120,31,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,163,31,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,204,31,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,247,31,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,25,51,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT6,77,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,120,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,163,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,204,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,247,51,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO3,25,71,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT7,77,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,120,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,163,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,204,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,247,71,40,14,ES_AUTOHSCROLL
+    CONTROL         "显示",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,102,30,10
+    CONTROL         "不显示",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,92,102,37,10
+    CONTROL         "显示",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,122,30,10
+    CONTROL         "不显示",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,92,122,37,10
+    CONTROL         "显示",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,142,30,10
+    CONTROL         "不显示",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,92,142,37,10
+    CONTROL         "显示",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,162,30,10
+    CONTROL         "不显示",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,92,162,37,10
+    CONTROL         "闪烁",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,54,182,30,10
+    CONTROL         "不闪烁",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,92,182,37,10
+    CONTROL         "可调",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,102,30,10
+    CONTROL         "不可调",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,239,102,37,10
+    CONTROL         "开启",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,122,30,10
+    CONTROL         "关闭",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,239,122,30,10
+    CONTROL         "开启",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,142,30,10
+    CONTROL         "关闭",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,239,142,30,10
+    CONTROL         "延迟",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,200,162,30,10
+    CONTROL         "不延迟",IDC_RADIO20,"Button",BS_AUTORADIOBUTTON,239,162,37,10
+    CONTROL         "仅剩一格电",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,164,182,50,10
+    CONTROL         "一线通无速度",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,220,182,57,10
+    CONTROL         "正控",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,305,19,30,10
+    CONTROL         "负控",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,305,36,30,10
+    CONTROL         "正控",IDC_RADIO21,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,305,67,30,10
+    CONTROL         "负控",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON,339,67,30,10
+    CONTROL         "默认4872自动，连线60",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,306,164,88,10
+    CONTROL         "默认V1,A点V2,AB点V3",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,306,180,87,10
+    CONTROL         "开启三电压混合识别",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,306,148,78,10
+    GROUPBOX        "功能配置",IDC_STATIC,8,93,285,105
+    GROUPBOX        "电压配置",IDC_STATIC,7,8,287,80
+    LTEXT           "V1",IDC_STATIC,14,31,10,8
+    LTEXT           "V2",IDC_STATIC,14,52,10,8
+    LTEXT           "V3",IDC_STATIC,14,74,10,8
+    LTEXT           "快速选",IDC_STATIC,42,16,22,8
+    LTEXT           "欠压电",IDC_STATIC,86,16,22,8
+    LTEXT           "满电电",IDC_STATIC,126,16,22,8
+    LTEXT           "中点电",IDC_STATIC,165,16,22,8
+    LTEXT           "中点速",IDC_STATIC,208,16,22,8
+    LTEXT           "油门电",IDC_STATIC,252,16,22,8
+    GROUPBOX        "左右大灯配置",IDC_STATIC,297,8,126,44
+    CONTROL         "开启清累计",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,344,19,50,10
+    CONTROL         "转向灯同步闪烁",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,344,36,64,10
+    LTEXT           "LOGO标",IDC_STATIC,18,103,26,8
+    LTEXT           "数字电压",IDC_STATIC,18,123,28,8
+    LTEXT           "电量百分",IDC_STATIC,18,143,28,8
+    LTEXT           "温度",IDC_STATIC,18,163,15,8
+    LTEXT           "欠压超前",IDC_STATIC,18,183,28,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,143,102,1,92
+    LTEXT           "速度调节",IDC_STATIC,164,102,28,8
+    LTEXT           "相线速度",IDC_STATIC,164,122,28,8
+    LTEXT           "一线",IDC_STATIC,164,142,15,8
+    LTEXT           "电量延时",IDC_STATIC,164,162,28,8
+    GROUPBOX        "档位相关配置",IDC_STATIC,297,54,127,79
+    CONTROL         "开启超三速",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,67,50,10
+    LTEXT           "档   位   模",IDC_STATIC,309,81,35,8
+    LTEXT           "自动二档位",IDC_STATIC,309,98,35,8
+    LTEXT           "自动三档位",IDC_STATIC,309,118,35,8
+    COMBOBOX        IDC_COMBO4,356,80,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "三电压混合识别",IDC_STATIC,298,135,125,61
+    GROUPBOX        "其他设定",IDC_STATIC,7,199,416,92
+    LTEXT           "一线通速",IDC_STATIC,14,218,28,8
+    EDITTEXT        IDC_EDIT20,50,216,40,14,ES_AUTOHSCROLL
+    LTEXT           "最大速度",IDC_STATIC,14,235,28,8
+    EDITTEXT        IDC_EDIT21,50,234,40,14,ES_AUTOHSCROLL
+    LTEXT           "延迟时间",IDC_STATIC,14,254,28,8
+    EDITTEXT        IDC_EDIT22,50,254,40,14,ES_AUTOHSCROLL
+    LTEXT           "里程倍",IDC_STATIC,106,218,22,8
+    EDITTEXT        IDC_EDIT23,142,216,40,14,ES_AUTOHSCROLL
+    LTEXT           "限速速度",IDC_STATIC,106,235,28,8
+    EDITTEXT        IDC_EDIT24,142,234,40,14,ES_AUTOHSCROLL
+    LTEXT           "一一一>",IDC_STATIC,106,254,27,8
+    EDITTEXT        IDC_EDIT25,142,254,40,14,ES_AUTOHSCROLL
+    LTEXT           "小计里程",IDC_STATIC,198,218,28,8
+    LTEXT           "P档位置",IDC_STATIC,198,235,26,8
+    LTEXT           "限速方式",IDC_STATIC,198,254,28,8
+    COMBOBOX        IDC_COMBO7,230,216,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO8,230,234,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO9,230,254,48,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "左右大灯上拉",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,290,210,57,10
+    CONTROL         "档位上位",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,290,228,43,10
+    CONTROL         "一线通上拉",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,290,246,50,10
+    CONTROL         "配置时修调",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,290,264,50,10
+    CONTROL         "相速优先",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,362,210,43,10
+    CONTROL         "速度递增",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,362,228,43,10
+    CONTROL         "自动配置",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,362,246,43,10
+    PUSHBUTTON      "发送",IDC_BUTTON1,362,264,50,14
+    EDITTEXT        IDC_EDIT_OPEN,15,298,288,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开",IDC_BUTTON_OPEN,313,299,50,14
+    PUSHBUTTON      "保存",IDC_BUTTON_SAVE,370,299,50,14
+    EDITTEXT        IDC_EDIT30,356,96,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT31,356,116,40,14,ES_AUTOHSCROLL
+    LTEXT           "Kmh",IDC_STATIC,401,98,15,8
+    LTEXT           "Kmh",IDC_STATIC,401,118,15,8
+    LTEXT           "CheckSum:",IDC_STATIC_CHECKSUM,16,320,53,19
+    LTEXT           "",IDC_STATIC_CHECKSUM2,69,321,53,19
+    LTEXT           "",IDC_STATIC_RECV_COUNT_VALUE,282,338,44,8
+    LTEXT           "",IDC_STATIC_SEND_COUNT_VALUE,350,338,44,8
+    EDITTEXT        IDC_EDIT_RECEIVE_TIMEOUT_MS,376,346,40,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "连接设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,52,23,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "串口号",IDC_STATIC,20,25,25,8
+    COMBOBOX        IDC_COMBO10,52,45,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "波特率",IDC_STATIC,20,47,25,8
+    COMBOBOX        IDC_COMBO11,52,67,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "校验位",IDC_STATIC,20,69,25,8
+    COMBOBOX        IDC_COMBO12,52,89,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "数据位",IDC_STATIC,20,91,25,8
+    COMBOBOX        IDC_COMBO13,51,111,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "停止位",IDC_STATIC,20,113,25,8
+    LTEXT           "接收超时(ms)",IDC_STATIC,142,25,47,8
+    EDITTEXT        IDC_EDIT10,190,23,40,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "itas109, https://github.com/itas109/CSerialPort"
+            VALUE "FileDescription", "MFC Application with CSerialPort"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CommMFC.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2021 itas109. All Rights Reserved."
+            VALUE "OriginalFilename", "CommMFC.exe"
+            VALUE "ProductName", "CommMFC.exe"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_COMMMFC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 430
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 360
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_32771
+        MENUITEM "保存(&S)",                      ID_32772
+        MENUITEM "退出",                          ID_32774
+    END
+    POPUP "设定(&S)"
+    BEGIN
+        MENUITEM "连接设置",                        ID_32775
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于",                          ID_32773
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 CommMFC(&A)..."
+    IDS_STRING102           "ID_INDICATOR_NISH"
+    IDS_STRING103           "ID_INDICATOR_TIME"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\CommMFC.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
